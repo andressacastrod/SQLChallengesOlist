@@ -1,4 +1,4 @@
-# Análises em SQLite Olist
+# Awari SQL Challenges
 
 ## Dados - Olist
 
