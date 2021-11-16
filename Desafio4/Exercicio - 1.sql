@@ -1,6 +1,9 @@
 --Crie uma view (SELLER_STATS) para mostrar por fornecedor, a quantidade de itens enviados, o tempo médio de postagem após a aprovação da compra, 
 --a quantidade total de pedidos de cada Fornecedor, note que trabalharemos na mesma query com 2 granularidades diferentes.
 
+CREATE VIEW SELLER_STATS
+AS
+
 SELECT
 	Fornecedor,
 	count(Item) Total_Pedidos,
